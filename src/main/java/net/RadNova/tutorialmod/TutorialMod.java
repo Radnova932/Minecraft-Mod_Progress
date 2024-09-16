@@ -1,6 +1,8 @@
 package net.RadNova.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.RadNova.tutorialmod.block.ModBlocks;
+import net.RadNova.tutorialmod.item.ModCreativeModTabs;
 import net.RadNova.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,7 +32,10 @@ public class TutorialMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -52,6 +57,7 @@ public class TutorialMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SPIRESTONE);
+            event.accept(ModItems.RAW_SPIRESTONE);
         }
     }
 

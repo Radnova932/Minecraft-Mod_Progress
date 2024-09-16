@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> SPIRESTONE = ITEMS.register("spirestone",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_SPIRESTONE = ITEMS.register("raw_spirestone",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

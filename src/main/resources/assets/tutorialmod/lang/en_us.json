@@ -1,3 +1,6 @@
 {
-  "item.tutorialmod.spirestone" : "Spirestone"
+  "item.tutorialmod.spirestone" : "Spirestone",
+  "item.tutorialmod.raw_spirestone" : "Raw Spirestone",
+
+  "creativetab.tutorial_tab" : "Spirestone Tutorial Tab"
 }
