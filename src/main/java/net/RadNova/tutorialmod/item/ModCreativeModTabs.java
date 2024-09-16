@@ -1,6 +1,7 @@
 package net.RadNova.tutorialmod.item;
 
 import net.RadNova.tutorialmod.TutorialMod;
+import net.RadNova.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SPIRESTONE.get());
                         pOutput.accept(ModItems.RAW_SPIRESTONE.get());
+                        pOutput.accept(ModBlocks.SPIRESTONE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SPIRESTONE_BLOCK.get());
 
                         pOutput.accept(Items.ELYTRA);
                     })
