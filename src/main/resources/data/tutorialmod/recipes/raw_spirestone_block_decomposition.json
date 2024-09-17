@@ -3,11 +3,11 @@
   "category" : "misc",
   "ingredients" : [
     {
-      "item" : "tutorialmod:spirestone_block"
+      "item" : "tutorialmod:raw_spirestone_block"
     }
   ],
   "result" : {
-    "item" : "tutorialmod:spirestone",
+    "item" : "tutorialmod:raw_spirestone",
     "count" : 9
   }
 }

@@ -3,6 +3,10 @@
   "item.tutorialmod.raw_spirestone" : "Raw Spirestone",
   "block.tutorialmod.spirestone_block" : "Spirestone Cube",
   "block.tutorialmod.raw_spirestone_block" : "Raw Spirestone Cube",
+  "block.tutorialmod.spirestone_ore" : "Spirestone Ore",
+  "block.tutorialmod.deepslate_spirestone_ore" : "Deep Spirestone Ore",
+  "block.tutorialmod.nether_spirestone_ore" : "Spirestone Flame Ore",
+  "block.tutorialmod.end_spirestone_ore" : "Ancient Spirestone Ore",
 
   "creativetab.tutorial_tab" : "Spirestone Tutorial Tab"
 }

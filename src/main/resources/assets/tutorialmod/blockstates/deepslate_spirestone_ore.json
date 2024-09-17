@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "tutorialmod:block/deepslate_spirestone_ore"
+    }
+  }
+}

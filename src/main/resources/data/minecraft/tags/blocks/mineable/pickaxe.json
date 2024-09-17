@@ -1,0 +1,10 @@
+{
+  "values" : [
+    "tutorialmod:spirestone_block",
+    "tutorialmod:raw_spirestone_block",
+    "tutorialmod:spirestone_ore",
+    "tutorialmod:deepslate_spirestone_ore",
+    "tutorialmod:nether_spirestone_ore",
+    "tutorialmod:end_spirestone_ore"
+  ]
+}

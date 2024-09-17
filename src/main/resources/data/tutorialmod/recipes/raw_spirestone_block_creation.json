@@ -3,18 +3,18 @@
   "category" : "misc",
   "pattern" : [
     "###",
-    "#N#",
+    "#A#",
     "###"
   ],
   "key" : {
     "#" : {
-      "item" : "tutorialmod:spirestone"
+      "item" : "tutorialmod:raw_spirestone"
     },
-    "N" : {
-      "item" : "minecraft:netherite_ingot"
+    "A" : {
+      "item" : "minecraft:amethyst_shard"
     }
   },
   "result" : {
-    "item" : "tutorialmod:spirestone_block"
+    "item" : "tutorialmod:raw_spirestone_block"
   }
 }

@@ -24,6 +24,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_SPIRESTONE.get());
                         pOutput.accept(ModBlocks.SPIRESTONE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SPIRESTONE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SPIRESTONE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_SPIRESTONE_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_SPIRESTONE_ORE.get());
+                        pOutput.accept(ModBlocks.END_SPIRESTONE_ORE.get());
+
 
                         pOutput.accept(Items.ELYTRA);
                     })
