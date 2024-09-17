@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 5.5,
+  "group": "spirestone",
+  "ingredient": {
+    "item": "tutorialmod:raw_spirestone"
+  },
+  "result": "tutorialmod:spirestone"
+}

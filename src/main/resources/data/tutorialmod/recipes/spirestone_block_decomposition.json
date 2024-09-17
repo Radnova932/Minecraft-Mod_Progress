@@ -1,0 +1,20 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "###",
+    "#N#",
+    "###"
+  ],
+  "key" : {
+    "#" : {
+      "item" : "tutorialmod:spirestone"
+    },
+    "N" : {
+      "item" : "minecraft:netherite_ingot"
+    }
+  },
+  "result" : {
+    "item" : "tutorialmod:spirestone_block"
+  }
+}

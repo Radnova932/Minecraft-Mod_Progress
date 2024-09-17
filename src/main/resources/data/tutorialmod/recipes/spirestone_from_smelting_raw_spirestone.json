@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 2.3,
+  "group": "spirestone",
+  "ingredient": {
+    "item": "tutorialmod:raw_spirestone"
+  },
+  "result": "tutorialmod:spirestone"
+}
